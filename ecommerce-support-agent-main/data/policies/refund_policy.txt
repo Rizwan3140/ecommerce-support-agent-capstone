@@ -1,0 +1,27 @@
+SECTION 1: Overview
+
+Meridian Market refunds qualifying merchandise and documented service failures per card network rules, bank timelines, and regional law. It defines money-back versus store credit, partial refund math, and interaction with promos and final-sale flags. Refunds go to original tender when possible; expired or replaced cards may settle via verified ACH or store credit per Finance. Refunds reflect eligibility, not open-ended goodwill.
+
+Refunds run only after return receipt and inspection, or after non-delivery is validated via carrier or fulfillment logs. Digital gift cards, consumed subscription renewals past the cooling-off window, and built-to-order custom goods are non-refundable except where law requires.
+
+SECTION 2: Eligibility Rules
+
+Salable standard catalog items returned within thirty (30) days of delivery get full item subtotal refund plus tax on returned units; outbound shipping is excluded unless we erred or a warranty defect applies. Days thirty-one (31)–forty-five (45): store credit only unless Elite tier extends card refunds to forty-five (45) days on non-final-sale goods.
+
+Partial refunds apply for: partial multi-SKU returns; missing bundled accessories (deduct MSRP); broken bundle when one line is kept (repriced undiscounted for retained lines); broken hygiene-seal on sensitive categories (up to 50% restocking per category table); or post-purchase price-match credits (refund capped at the lower of paid amount or matched price).
+
+Final-sale items, clearance "as-is" lots, electronically delivered software after license key reveal, and perishable goods are not eligible for refund absent misdescription provable with photographic evidence submitted within forty-eight (48) hours of receipt. Conflicting display: if the PDP showed "30-day returns" but checkout flagged "Final sale," the checkout terms control for that SKU version; Escalations may override only when the PDP error persisted for the customer's entire session per clickstream audit.
+
+SECTION 3: Exceptions
+
+Suspected abuse (chronic returns, wardrobing, claimed vs. carrier weight mismatch) pauses refunds for Fraud review; approved refunds may be store credit only. EU/UK distance-contract withdrawal may allow fourteen (14) day refunds after our default window, excluding sealed media where law allows. Pending refunds may reverse until chargebacks clear.
+
+"Buy two, get third free": returning paid units while keeping the free item claws back free-item value from paid-line refunds (lowest cost allocation) unless all three return.
+
+Conflict rule: if an item is marked final sale but the customer submits photographic evidence that the received product is materially different from the listing (e.g., missing component, incorrect hardware, or clear labeling/packaging mismatch not caused after delivery), the final-sale status does not control and the claim is resolved under the refund/replacement remedies in this policy.
+
+SECTION 4: Processing / Resolution Rules
+
+Refunds post to the original payment method within five (5) to ten (10) business days after warehouse QA passes the return; PayPal and some wallets may settle faster. Internal target for agent-facing promise: "You'll typically see it within two billing cycles—sooner in most cases." For split tender orders, refund applies proportionally unless a line item maps to a single instrument.
+
+Log RMA ID, condition code, damage photos, and restocking or partial logic. Late partial shipments: apply Late Delivery policy before any discretionary full item refund. Goodwill full refunds above policy: supervisor for orders over $500 subtotal or CRM-flagged VIP accounts.

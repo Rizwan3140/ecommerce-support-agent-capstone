@@ -1,0 +1,10 @@
+id,query,intent,category,expected_tool,expected_behavior
+Q001,Where is my order #1002?,order_status,Orders,get_order_status,Return current shipment status and tracking details
+Q002,Where is my order?,order_status,Orders,get_order_status,Ask for order ID before lookup
+Q003,How do I return a product?,return_process,Returns,get_refund_policy,Explain return steps and 7 day return window
+Q004,I want to return order #1001 because I changed my mind,return_request,Returns,create_return_request,Check order and create RMA if eligible
+Q005,My payment failed but money was deducted,payment_failure,Payments,get_refund_policy,Explain 3 to 7 business day reversal timeline
+Q006,Do you charge for shipping?,shipping_charges,Shipping,retrieval_only,Explain free above INR 999 and INR 79 below
+Q007,How do I contact customer support?,contact_support,Support,retrieval_only,Provide support@example.com and chat support
+Q008,Does the 24-inch monitor have HDMI?,product_spec_query,Product_Info,search_products,Answer from product catalog specs
+

@@ -1,0 +1,184 @@
+{
+  "cases": [
+    {
+      "id": "TC_01",
+      "category": "normal",
+      "input": "Hi — I'd like to return my order #4829103. The kettle is still sealed in the box; it was delivered last Tuesday. Can I get a full refund to my Visa?",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_02",
+      "category": "normal",
+      "input": "My monitor arrived today and the screen is cracked. I took pictures of the crushed corner of the outer carton and the damage on the panel. I need a replacement, not a repair.",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_03",
+      "category": "normal",
+      "input": "I chose free economy shipping and the tracking page shows my package was delivered 9 business days after the latest date shown at checkout. That's ridiculous. What compensation do I get?",
+      "expected": {
+        "classification": "shipping",
+        "decision": "partial"
+      }
+    },
+    {
+      "id": "TC_04",
+      "category": "normal",
+      "input": "Please cancel order #7712094 entirely — I don't need the jackets anymore. I haven't received any tracking email yet and the status still says processing.",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_05",
+      "category": "normal",
+      "input": "After you approve my return, how long until the money shows up on my Mastercard? I need a straight answer.",
+      "expected": {
+        "classification": "other",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_06",
+      "category": "normal",
+      "input": "You sent me a medium navy hoodie but I ordered a large black one — the packing slip matches what I ordered, the product label inside doesn't. Please send the correct item with a prepaid label for this one.",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_07",
+      "category": "normal",
+      "input": "The cordless drill kit arrived but the extra battery that was supposed to be in the picture on the listing is missing from the case. I want a partial refund for the missing battery or send me the battery; your choice.",
+      "expected": {
+        "classification": "refund",
+        "decision": "partial"
+      }
+    },
+    {
+      "id": "TC_08",
+      "category": "normal",
+      "input": "I paid for Guaranteed Express and FedEx dropped it off a full day after the committed date on my confirmation email. I want my express shipping fee back at minimum.",
+      "expected": {
+        "classification": "shipping",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_09",
+      "category": "exception",
+      "input": "I'm Elite loyalty. My boots were delivered 41 days ago, unworn with tags. Your site says 30 days but I thought Elite had longer — I want the refund back to my Amex, not store credit.",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_10",
+      "category": "exception",
+      "input": "I bought your fragrance-free lotion (opened once to test) and broke out in hives within hours. I can send photos of the reaction and my receipt from urgent care — I need a refund but I don't want a voucher.",
+      "expected": {
+        "classification": "refund",
+        "decision": "partial"
+      }
+    },
+    {
+      "id": "TC_11",
+      "category": "exception",
+      "input": "The ceramic vase looked fine from outside the box but when I unwrapped it six days after delivery I found a hairline crack that leaks water. I didn't notice until I filled it for flowers. Can I still get a replacement?",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_12",
+      "category": "exception",
+      "input": "I ordered a monogrammed leather tote — I changed my mind 6 hours after placing it. Your email says production may already be locked — can you still cancel for a full refund? I never received a ship notice.",
+      "expected": {
+        "classification": "refund",
+        "decision": "needs_info"
+      }
+    },
+    {
+      "id": "TC_13",
+      "category": "exception",
+      "input": "I bought three T-shirts under your buy-two-get-one-free deal. I'm keeping the free one but returning the two I paid for — just process my refund for those two.",
+      "expected": {
+        "classification": "refund",
+        "decision": "partial"
+      }
+    },
+    {
+      "id": "TC_14",
+      "category": "exception",
+      "input": "My clearance sweatshirt was marked final sale but the listing photo shows a zip pocket and the one I got has no pocket at all — that's not what I agreed to. I want a full refund and I'll send it back.",
+      "expected": {
+        "classification": "refund",
+        "decision": "approve"
+      }
+    },
+    {
+      "id": "TC_15",
+      "category": "conflict",
+      "input": "The product page said '30-day returns' on the banner but at checkout I also had to tick a box saying final sale for that same SKU. I already received it — which rule actually applies to me?",
+      "expected": {
+        "classification": "refund",
+        "decision": "escalate"
+      }
+    },
+    {
+      "id": "TC_16",
+      "category": "conflict",
+      "input": "Only half my order showed up but my card was charged for everything. You're offering a refund for the missing pieces OR a reship, but I want both the missing items shipped and a 50% refund for the hassle. That's only fair.",
+      "expected": {
+        "classification": "shipping",
+        "decision": "partial"
+      }
+    },
+    {
+      "id": "TC_17",
+      "category": "conflict",
+      "input": "The item was marked final sale so you won't refund me for remorse, but it also arrived with the seal broken and a stain — you say I can get a replacement under damage policy but I insist on cash back only, full amount, today.",
+      "expected": {
+        "classification": "refund",
+        "decision": "escalate"
+      }
+    },
+    {
+      "id": "TC_18",
+      "category": "not_policy",
+      "input": "Do you sell second-hand or refurbished products anywhere on your site? I'm looking for a used DSLR in good condition.",
+      "expected": {
+        "classification": "other",
+        "decision": "needs_info"
+      }
+    },
+    {
+      "id": "TC_19",
+      "category": "not_policy",
+      "input": "I'm writing a school report — who founded your company and what year did it go public? I couldn't find it on the product page.",
+      "expected": {
+        "classification": "other",
+        "decision": "needs_info"
+      }
+    },
+    {
+      "id": "TC_20",
+      "category": "not_policy",
+      "input": "Can your support team recommend a lawyer for a warranty dispute I'm having with a different retailer? I need legal advice by Friday.",
+      "expected": {
+        "classification": "other",
+        "decision": "deny"
+      }
+    }
+  ]
+}

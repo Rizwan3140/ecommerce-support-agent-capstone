@@ -1,0 +1,33 @@
+SECTION 1: Overview
+
+International shipping extends Meridian Market's catalog to select countries via export-compliant lanes. Duties, taxes, and brokerage fees may be collected at checkout (Delivered Duty Paid, DDP) or assessed upon import (DDU) depending on lane configuration displayed at purchase. Customers are responsible for accurate customs declarations assistance—false commodity descriptions requested by customers are refused.
+
+Transit times exclude customs processing, which can add unpredictable delays. Product compliance varies by destination: voltage, labeling language, certification marks, and restricted ingredients may disqualify SKUs from certain countries at checkout.
+
+SECTION 2: Eligibility Rules
+
+Eligible destinations appear in the Dynamic Geo matrix updated weekly. PO boxes prohibited except where local post handles last-mile and carrier integration supports. Minimum order value $75 USD equivalent for EU DDP lane to offset brokerage flat fees—shown as soft block if below.
+
+Restricted categories: apparel with regional fur bans, certain batteries, cryptography hardware, and laser pointers above Class limits—hard stop at cart validation. Gift orders must list honest contents for customs; value declaration equals transaction subtotal unless legal ceiling lower—no undervaluing.
+
+Returns from international customers: RMA must use approved commercial invoice template stating "return of goods exported from US" with HS codes matching outbound shipment; customer bears return shipping and any re-import fees to US unless defect confirmed pre-return.
+
+SECTION 3: Exceptions
+
+Undeliverable returns to sender due to unpaid duties when lane was DDU: original payment refunded minus outbound international shipping and restock fee 20% if packaging compromised, per checkout acknowledgement checkbox.
+
+Brexit and NI protocols: UK mainland follows UK DDP table; Northern Ireland may route through dual customs—delivery estimates widen by up to four (4) business days mid-quarter.
+
+Conflicting refund request: customer refuses to pay assessed VAT at door on DDU lane—parcel abandoned; refund of merchandise only after carrier confirms destruction or return-to-origin scan, minus abandonment fees up to 25% not to exceed item subtotal.
+
+Force majeure: port strikes, war risk areas—shipments suspended; pending orders held up to thirty (30) days then cancelled with full refund if no alternate route.
+
+SECTION 4: Processing / Resolution Rules
+
+Agents quote only published lane timelines; attach Help Center deep link to customs broker FAQ. Lost international packages: forty-five (45) calendar day search before refund or replace; Russia/Belarus lanes deprecated—historical claims handled case-by-case.
+
+Currency: charge in USD on US site; customer's bank sets conversion. Provide PayPal cross-border receipt on request—do not email full PAN.
+
+Escalate repeated customs seizures of same SKU to Compliance for HS review. Partner carriers' fuel surcharges mid-transit are absorbed by enterprise contract—do not pass through on settled orders.
+
+VAT invoices for B2B EU: collect valid VAT ID pre-tax-exempt authorization; invalid ID triggers tax recharge on next invoice—not handled in consumer queue.
