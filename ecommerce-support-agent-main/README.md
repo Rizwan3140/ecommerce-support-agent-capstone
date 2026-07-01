@@ -2,8 +2,6 @@
 
 **Multi-agent Retrieval-Augmented Generation (RAG)** system that turns customer support messages into **policy-grounded**, **structured** resolutions. A **FastAPI** backend and optional **Streamlit** UI send tickets through **triage → retrieval → drafting → compliance**, using **LangChain**, **Groq**, **HuggingFace embeddings**, and a **FAISS** vector index over a synthetic policy corpus.
 
-Public reference repo: [TIB713/ecommerce-support-agent](https://github.com/TIB713/ecommerce-support-agent).
-
 ## Capstone Completion Additions
 
 This local version extends the upstream RAG project for the e-commerce support
